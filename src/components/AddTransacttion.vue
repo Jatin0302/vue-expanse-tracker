@@ -7,7 +7,7 @@
         </div>
         <div class="form-control">
             <label for="amount">Amount </label>
-            <input type="text" id="amount" v-model="amount" placeholder="Enter Amount...">
+            <input type="number" id="amount" v-model="amount" placeholder="Enter Amount...">
         </div>
         <button class="btn">Add Transaction</button>
     </form>
